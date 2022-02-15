@@ -15,10 +15,6 @@ pip install -r requirements.txt
 ```python
 from pyaparat import Main
 
-m = Main('link, quality')
+m = Main('link', 'quality')
 m.download()
 ```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
